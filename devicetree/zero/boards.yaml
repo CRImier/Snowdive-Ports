@@ -1,0 +1,149 @@
+boards:
+  rpi_zero:
+    finished: true
+    tested: false
+    compat: '"brcm,bcm2835"'
+    gpio_numbering: rpi
+    pin_prefix: ""
+    i2c_bus_pointer: i2c1
+    gpio_target: gpio
+    # INT EC GPIO: 11
+    int_ec_gpio_port_pointer: gpio
+    int_ec_gpio_num: 11
+    # INT A GPIO: 
+    int_a_gpio_port_pointer: gpio
+    int_a_gpio_port: gpio
+    int_a_gpio_num: 13
+    # INT B GPIO: 
+    int_b_gpio_port_pointer: gpio
+    int_b_gpio_port: gpio
+    int_b_gpio_num: 12
+  bpi_m2_zero:
+    finished: false
+    tested: false
+    compat: '"sinovoip,bpi-m2-zero", "allwinner,sun8i-h2-plus"'
+    gpio_numbering: h3
+    pin_prefix: ""
+    i2c_bus_pointer: i2c0 # A-12 A-11
+    gpio_target: pio
+    # INT EC GPIO: A-7
+    int_ec_gpio_port_pointer: pio
+    int_ec_gpio_str: "A7"
+    # INT A GPIO: A-19
+    int_a_gpio_port_pointer: pio
+    int_a_gpio_num: "A19"
+    # INT B GPIO: L-2
+    int_b_gpio_port_pointer: r_pio
+    int_b_gpio_num: "L2"
+  bpi_m4_zero:
+    finished: false
+    tested: false
+    compat: 
+    gpio_numbering: 
+    pin_prefix: 
+    i2c_bus_pointer: # I-6 I-5
+    gpio_target:
+    # INT EC GPIO: 
+    int_ec_gpio_port_pointer: 
+    int_ec_gpio_str: 
+    # INT A GPIO: H-10
+    int_a_gpio_port_pointer: 
+    int_a_gpio_port: 
+    int_a_gpio_num: 
+    # INT B GPIO: H-4
+    int_b_gpio_port_pointer: 
+    int_b_gpio_port: 
+    int_b_gpio_num: 
+  opi_zero_2w:
+    finished: false
+    tested: false
+    compat: 
+    gpio_numbering: 
+    pin_prefix: 
+    i2c_bus_pointer: # I-8 I-7
+    gpio_target: 
+    # INT EC GPIO: 
+    int_ec_gpio_port_pointer: 
+    int_ec_gpio_str: 
+    # INT A GPIO: I-12
+    int_a_gpio_port_pointer: 
+    int_a_gpio_port: 
+    int_a_gpio_num: 
+    # INT B GPIO: I-11
+    int_b_gpio_port_pointer: 
+    int_b_gpio_port: 
+    int_b_gpio_num: 
+  radxa_cubie_a7z:
+    finished: false
+    tested: false
+    compat: 
+    gpio_numbering: 
+    pin_prefix: 
+    i2c_bus_pointer:  # J-23, J-22
+    gpio_target: 
+    # INT EC GPIO: 
+    int_ec_gpio_port_pointer: 
+    int_ec_gpio_str: 
+    # INT A GPIO: M-3
+    int_a_gpio_port_pointer: 
+    int_a_gpio_port: 
+    int_a_gpio_num: 
+    # INT B GPIO: M-5
+    int_b_gpio_port_pointer: 
+    int_b_gpio_port: 
+    int_b_gpio_num: 
+  radxa_rock_s0:
+    finished: true
+    tested: false
+    compat: '"radxa,rockpis", "radxa,rock-s0"'
+    gpio_numbering: "rk3308"
+    pin_prefix: ""
+    i2c_bus_pointer: i2c1 # 0-B3, 0-B4
+    gpio_target: pinctrl
+    # INT EC GPIO: GPIO2_C0
+    int_ec_gpio_port_pointer: gpio0
+    int_ec_gpio_str: "C0"
+    # INT A GPIO: GPIO0_C2
+    int_a_gpio_port_pointer: gpio0
+    int_a_gpio_str: "C2"
+    # INT B GPIO: GPIO2_B4
+    int_b_gpio_port_pointer: gpio2
+    int_b_gpio_str: "B4"
+  radxa_zero_v1.5:
+    finished: false
+    tested: false
+    compat: 
+    gpio_numbering: 
+    pin_prefix: 
+    i2c_bus_pointer: # A-14 A-15
+    gpio_target: 
+    # INT EC GPIO: 
+    int_ec_gpio_port_pointer: 
+    int_ec_gpio_str: 
+    # INT A GPIO: AO-8
+    int_a_gpio_port_pointer: 
+    int_a_gpio_port: 
+    int_a_gpio_num: 
+    # INT B GPIO: AO-4
+    int_b_gpio_port_pointer: 
+    int_b_gpio_port: 
+    int_b_gpio_num: 
+  radxa_zero_3w:
+    finished: false
+    tested: false
+    compat: 
+    gpio_numbering: 
+    pin_prefix: 
+    i2c_bus_pointer: # 1-A0 1-A1
+    gpio_target: 
+    # INT EC GPIO: 
+    int_ec_gpio_port_pointer: 
+    int_ec_gpio_str: 
+    # INT A GPIO: 3-C3
+    int_a_gpio_port_pointer: 
+    int_a_gpio_port: 
+    int_a_gpio_num: 
+    # INT B GPIO: 3-C2
+    int_b_gpio_port_pointer: 
+    int_b_gpio_port: 
+    int_b_gpio_num: 
