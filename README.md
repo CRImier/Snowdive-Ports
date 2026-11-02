@@ -26,6 +26,7 @@ Currently, documents and enables the Snowdive ZERO top board compatibility; this
 
 ## Candidates for support
 
+* Walnut Pi Zero 1
 * MangoPi MQ Quad
 * Luckfox Pico Zero
 * AC57-Canmv K230D ZERO (Banana Pi) (RISC-V)
